@@ -10,7 +10,7 @@ spark = SparkSession \
 
 filepath = './sample3.csv'
 
-# Read a CSV File
+# Read a CSV File from the file path
 df = spark.read.option("header", True).csv(filepath)
 
 # Change columns to appropriate data types
