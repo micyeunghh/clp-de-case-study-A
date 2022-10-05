@@ -2,7 +2,7 @@
 
 
 
-# Part 3 - Business Requirements
+## Part 3 - Business Requirements
 For handling the "dew point" requirement, I have used PySpark to perform the data transformation and aggregation in data-extraction.py. For simplicity, the script reads a csv file instead of reading from the data directly from the Postgres database.
 
 As the "dew point" metric expects both temperature and relative humidity as inputs for individual sensor, the following assumptions have been made:
